@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB2FDCC02BD004E60036D325 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCBF2BD004E60036D325 /* TestView.swift */; };
 		DB2FDCC22BD006560036D325 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCC12BD006560036D325 /* ButtonView.swift */; };
 		DB2FDCC42BD0073B0036D325 /* SubTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCC32BD0073B0036D325 /* SubTextModifier.swift */; };
 		DB2FDCC62BD0088D0036D325 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCC52BD0088D0036D325 /* SecondView.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB2FDCBF2BD004E60036D325 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		DB2FDCC12BD006560036D325 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		DB2FDCC32BD0073B0036D325 /* SubTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTextModifier.swift; sourceTree = "<group>"; };
 		DB2FDCC52BD0088D0036D325 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
@@ -50,6 +48,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB2FDCCD2BD011E80036D325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBE3F92BCFF61400B6DAC5 /* FirstView.swift */,
+				DB2FDCC52BD0088D0036D325 /* SecondView.swift */,
+				DB2FDCC92BD00E660036D325 /* ThirdView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB2FDCCE2BD011FF0036D325 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBE3FB2BCFF92A00B6DAC5 /* ImageTextView.swift */,
+				DB2FDCC12BD006560036D325 /* ButtonView.swift */,
+				DB2FDCCB2BD0103F0036D325 /* RecButtonView.swift */,
+				DB2FDCC32BD0073B0036D325 /* SubTextModifier.swift */,
+				DB2FDCC72BD008E10036D325 /* MainTextModifier.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		DBCBE3DF2BCFF4B800B6DAC5 = {
 			isa = PBXGroup;
 			children = (
@@ -69,19 +89,12 @@
 		DBCBE3EA2BCFF4B800B6DAC5 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DB2FDCCE2BD011FF0036D325 /* Custom */,
+				DB2FDCCD2BD011E80036D325 /* View */,
 				DBCBE3EB2BCFF4B800B6DAC5 /* SwiftUIPracticeApp.swift */,
 				DBCBE3ED2BCFF4B800B6DAC5 /* ContentView.swift */,
 				DBCBE3EF2BCFF4B900B6DAC5 /* Assets.xcassets */,
 				DBCBE3F12BCFF4B900B6DAC5 /* Preview Content */,
-				DBCBE3F92BCFF61400B6DAC5 /* FirstView.swift */,
-				DB2FDCC52BD0088D0036D325 /* SecondView.swift */,
-				DB2FDCC92BD00E660036D325 /* ThirdView.swift */,
-				DBCBE3FB2BCFF92A00B6DAC5 /* ImageTextView.swift */,
-				DB2FDCBF2BD004E60036D325 /* TestView.swift */,
-				DB2FDCC12BD006560036D325 /* ButtonView.swift */,
-				DB2FDCCB2BD0103F0036D325 /* RecButtonView.swift */,
-				DB2FDCC32BD0073B0036D325 /* SubTextModifier.swift */,
-				DB2FDCC72BD008E10036D325 /* MainTextModifier.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -168,7 +181,6 @@
 				DB2FDCC22BD006560036D325 /* ButtonView.swift in Sources */,
 				DB2FDCCC2BD0103F0036D325 /* RecButtonView.swift in Sources */,
 				DB2FDCC62BD0088D0036D325 /* SecondView.swift in Sources */,
-				DB2FDCC02BD004E60036D325 /* TestView.swift in Sources */,
 				DB2FDCC42BD0073B0036D325 /* SubTextModifier.swift in Sources */,
 				DB2FDCC82BD008E10036D325 /* MainTextModifier.swift in Sources */,
 				DB2FDCCA2BD00E660036D325 /* ThirdView.swift in Sources */,
