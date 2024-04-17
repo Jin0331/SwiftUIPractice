@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		DB2FDCC02BD004E60036D325 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCBF2BD004E60036D325 /* TestView.swift */; };
 		DB2FDCC22BD006560036D325 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCC12BD006560036D325 /* ButtonView.swift */; };
+		DB2FDCC42BD0073B0036D325 /* SubTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCC32BD0073B0036D325 /* SubTextModifier.swift */; };
+		DB2FDCC62BD0088D0036D325 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCC52BD0088D0036D325 /* SecondView.swift */; };
+		DB2FDCC82BD008E10036D325 /* MainTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FDCC72BD008E10036D325 /* MainTextModifier.swift */; };
 		DBCBE3EC2BCFF4B800B6DAC5 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCBE3EB2BCFF4B800B6DAC5 /* SwiftUIPracticeApp.swift */; };
 		DBCBE3EE2BCFF4B800B6DAC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCBE3ED2BCFF4B800B6DAC5 /* ContentView.swift */; };
 		DBCBE3F02BCFF4B900B6DAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCBE3EF2BCFF4B900B6DAC5 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		DB2FDCBF2BD004E60036D325 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		DB2FDCC12BD006560036D325 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		DB2FDCC32BD0073B0036D325 /* SubTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTextModifier.swift; sourceTree = "<group>"; };
+		DB2FDCC52BD0088D0036D325 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		DB2FDCC72BD008E10036D325 /* MainTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTextModifier.swift; sourceTree = "<group>"; };
 		DBCBE3E82BCFF4B800B6DAC5 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCBE3EB2BCFF4B800B6DAC5 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		DBCBE3ED2BCFF4B800B6DAC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,9 +70,12 @@
 				DBCBE3EF2BCFF4B900B6DAC5 /* Assets.xcassets */,
 				DBCBE3F12BCFF4B900B6DAC5 /* Preview Content */,
 				DBCBE3F92BCFF61400B6DAC5 /* FirstView.swift */,
+				DB2FDCC52BD0088D0036D325 /* SecondView.swift */,
 				DBCBE3FB2BCFF92A00B6DAC5 /* ImageTextView.swift */,
 				DB2FDCBF2BD004E60036D325 /* TestView.swift */,
 				DB2FDCC12BD006560036D325 /* ButtonView.swift */,
+				DB2FDCC32BD0073B0036D325 /* SubTextModifier.swift */,
+				DB2FDCC72BD008E10036D325 /* MainTextModifier.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -151,7 +160,10 @@
 			files = (
 				DBCBE3EE2BCFF4B800B6DAC5 /* ContentView.swift in Sources */,
 				DB2FDCC22BD006560036D325 /* ButtonView.swift in Sources */,
+				DB2FDCC62BD0088D0036D325 /* SecondView.swift in Sources */,
 				DB2FDCC02BD004E60036D325 /* TestView.swift in Sources */,
+				DB2FDCC42BD0073B0036D325 /* SubTextModifier.swift in Sources */,
+				DB2FDCC82BD008E10036D325 /* MainTextModifier.swift in Sources */,
 				DBCBE3FC2BCFF92A00B6DAC5 /* ImageTextView.swift in Sources */,
 				DBCBE3FA2BCFF61400B6DAC5 /* FirstView.swift in Sources */,
 				DBCBE3EC2BCFF4B800B6DAC5 /* SwiftUIPracticeApp.swift in Sources */,

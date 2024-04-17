@@ -10,6 +10,7 @@ import SwiftUI
 struct ButtonView: View {
     
     var title : String
+    var imageName : String?
     var width : CGFloat = 300
     var height : CGFloat = 40
     
@@ -17,8 +18,10 @@ struct ButtonView: View {
         Button {
             
         } label: {
-            Text(title)
-                .frame(width: width, height: height)
+            VStack(alignment:.center) {
+                Text(title)
+                    .frame(width: width, height: height)
+            }
         }
 
     }
