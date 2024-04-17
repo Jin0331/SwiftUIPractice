@@ -16,9 +16,9 @@ struct SecondView: View {
                 .asSubTextModifier()
             
             HStack {
-                ButtonView(title: "그렇다", width: 100,height: 100)
+                RecButtonView(title: "그렇다", image: "circle")
                     .buttonStyle(.borderedProminent)
-                ButtonView(title: "아니다",width: 100,height: 100)
+                RecButtonView(title: "아니다", image: "xmark")
                     .buttonStyle(.borderedProminent)
                     .tint(.pink)
             }
